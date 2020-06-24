@@ -11,9 +11,9 @@ int main() {
     strcpy(palabra2,palabra1);
 
     if(strcmp(palabra1,strrev(palabra2)) == 0){
-        cout << "La palabra es polindrome" << endl;
+        cout << "La palabra es palindromo" << endl;
     } else {
-        cout << "La palabra no es polindrome" << endl;
+        cout << "La palabra no es palindromo" << endl;
     }
     system("pause");
     return 0;
