@@ -12,7 +12,6 @@ void cuadrado(int vector[],int size) {
     }
 }
 
-
 void muestra(int vector[],int size) {
     for(int i = 0; i < size; i++) {
         cout << vector[i] << " ";
